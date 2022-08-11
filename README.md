@@ -14,6 +14,6 @@ Establish a connetion with Azure Cloud and send data to it using IE Cloud Connec
 
 # Getting started
 
-The first thing we want to do is setup our Databus.
+The first thing we want to do is setup our Databus, for which we need to add a user and topic:
 
 ![Add user](https://github.com/JustCapo/IE-Cloud-Connector.-Azure/blob/main/Images/IE_Databus.png)
