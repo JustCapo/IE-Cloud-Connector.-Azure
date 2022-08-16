@@ -71,12 +71,15 @@ After this, let's edit the client's configuration, by clicking on the edit symbo
 - SAS Token: Shared Access Signature Token which grants restricted access rights to the IoT Azure Hub. Can be obtained as indicated:
   - Download Device Explorer: https://github.com/Azure/azure-iot-sdk-csharp/releases/tag/2018-3-13.
   - Once downloaded and opened, we are requested the connection string for our IoT Hub. To get it we go to our Hub, and under *security settings* in *shared access         policies* we select *iothubowner* and copy the primary connection string. This is what we will paste in Device Explorer.
+
+![](https://github.com/JustCapo/IE-Cloud-Connector.-Azure/blob/main/Images/ConnectionString.png)
+
   - Click *update*
   - Set TTL to a smaller, more reasonable amount, like 7 days.
   - Now select *Generate SAS*.
   - We will now have our SAS Token in the small window below. Copy and paste in the client configuration in IE Cloud Connector.
 
-![](https://github.com/JustCapo/IE-Cloud-Connector.-Azure/blob/main/Images/ConnectionString.png)
+![](https://github.com/JustCapo/IE-Cloud-Connector.-Azure/blob/main/Images/DeviceExplorer.png)
 
 ![](https://github.com/JustCapo/IE-Cloud-Connector.-Azure/blob/main/Images/IE_CC_ClientConfig.png)
 
