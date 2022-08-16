@@ -11,7 +11,7 @@ This is an example tailored to establish a connetion with Azure Cloud and send d
   - S7/OPC UA Connector (already configured and working).
 - Working TIA Project to send the data.
 - Azure account.
-- Coffee and good music.
+- Coffee and good background music.
 
 # Getting started
 
@@ -65,6 +65,9 @@ Next we head up for the Cloud Client. Here we will click on *Add client* and typ
 ![](https://github.com/JustCapo/IE-Cloud-Connector.-Azure/blob/main/Images/IE_CC_Client.png)
 
 After this, let's edit the client's configuration, by clicking on the edit symbol right next to it. Then edit as follows:
+
+![](https://github.com/JustCapo/IE-Cloud-Connector.-Azure/blob/main/Images/IE_CC_ClientConfig.png)
+
 - Client ID: This is the ID of the device that we registered earlier on [during the device registration](register-new-device).
 - Hostname: This is the hostname of our Azure IoT Hub. It can be found in the overview page of our Hub and looks like *myIoTHubName.azure-devices.net*.
 - Port number: Port number of the Azure IoT Hub. The default is 8883.
@@ -80,8 +83,6 @@ After this, let's edit the client's configuration, by clicking on the edit symbo
   - We will now have our SAS Token in the small window below. Copy and paste in the client configuration in IE Cloud Connector.
 
 ![](https://github.com/JustCapo/IE-Cloud-Connector.-Azure/blob/main/Images/DeviceExplorer.png)
-
-![](https://github.com/JustCapo/IE-Cloud-Connector.-Azure/blob/main/Images/IE_CC_ClientConfig.png)
 
 Following that, we now click on "Add Route" in the *Connecting Routes* section. We give it a unique name, and save.
 
