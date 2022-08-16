@@ -60,13 +60,14 @@ The fields to fill are as follows:
 
 ![](https://github.com/JustCapo/IE-Cloud-Connector.-Azure/blob/main/Images/IE_CC_Databus.png)
 
-Next we head up for the Cloud Client. Here we will click on *Add client* and type in a unique name for our client. Then choose type Azure because it would be quite strange choosing AWS/ for an Azure guide now, wouldn't it?
+Next we head up for the Cloud Client. Here we will click on *Add client* and type in a unique name for our client. Then on *type* choose Azure because it would be quite strange to select AWS/Mindsphere for an Azure guide now, wouldn't it?
 
 ![](https://github.com/JustCapo/IE-Cloud-Connector.-Azure/blob/main/Images/IE_CC_Client.png)
 
-After this, let's edit the client's configuration, by clicking on the edit symbol right next to it.
-
-EXPLAIN HERE WHAT'S LEFT. SAS TOKEN
+After this, let's edit the client's configuration, by clicking on the edit symbol right next to it. Then edit as follows:
+- Client ID: This is the ID of the device that we registered earlier on [during the device registration](register-new-device).
+- Hostname: This is the hostname of our Azure IoT Hub. It can be found in the overview page of our Hub and looks like *myIoTHubName.azure-devices.net*.
+- Port number: Port number of the Azure IoT Hub.
 
 ![](https://github.com/JustCapo/IE-Cloud-Connector.-Azure/blob/main/Images/IE_CC_ClientConfig.png)
 
