@@ -67,7 +67,7 @@ Next we head up for the Cloud Client. Here we will click on *Add client* and typ
 After this, let's edit the client's configuration, by clicking on the edit symbol right next to it. Then edit as follows:
 - Client ID: This is the ID of the device that we registered earlier on [during the device registration](register-new-device).
 - Hostname: This is the hostname of our Azure IoT Hub. It can be found in the overview page of our Hub and looks like *myIoTHubName.azure-devices.net*.
-- Port number: Port number of the Azure IoT Hub.
+- Port number: Port number of the Azure IoT Hub. The default is 8883.
 
 ![](https://github.com/JustCapo/IE-Cloud-Connector.-Azure/blob/main/Images/IE_CC_ClientConfig.png)
 
