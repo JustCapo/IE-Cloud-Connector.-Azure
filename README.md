@@ -96,7 +96,7 @@ Click on top of the newly created route's name, and select the previously create
 
 To check the sent data we can either simply run the command *az iot hub monitor-events --output table -p all -n YourIoTHubName* in the Azure CLI to see the data in the terminal. Or we can use Azure IoT Explorer: https://github.com/Azure/azure-iot-explorer.
 
-
+Once donwloaded and open, we will select *+Add Connection* in the IoT Hubs tab. And we will be requested, again, for the connection string for our IoT Hub. It is good we already know how to get it, [right?](#sas-token).
 
 ### Azure IoT Explorer
 
