@@ -47,6 +47,8 @@ We will be using admin as user and password for this example as well as the topi
 
 ![Add user](https://github.com/JustCapo/IE-Cloud-Connector.-Azure/blob/main/Images/IE_Databus.png)
 
+Deploy!
+
 ### IE Cloud Connector
 
 Now we open the IE Cloud Connector, and in the Bus Adaptor section, select *Edit configuration*.
@@ -73,10 +75,7 @@ After this, let's edit the client's configuration, by clicking on the edit symbo
 - Port number: Port number of the Azure IoT Hub. The default is 8883.
 - SAS Token: Shared Access Signature Token which grants restricted access rights to the IoT Azure Hub. Can be obtained as indicated:
   - Download Device Explorer: https://github.com/Azure/azure-iot-sdk-csharp/releases/tag/2018-3-13.
-  - Once downloaded and opened, we are requested the connection string for our IoT Hub. To get it we go to our Hub, and under *security settings* in *shared access         policies* we select *iothubowner* and copy the primary connection string. This is what we will paste in Device Explorer.
-
-![](https://github.com/JustCapo/IE-Cloud-Connector.-Azure/blob/main/Images/ConnectionString.png)
-
+  - Once downloaded and opened, we are requested the connection string for our IoT Hub. To get it we go to our Hub, and under *security settings* in *shared access         policies* we select *iothubowner* and copy the primary connection string. This is what we will paste in Device Explorer.![](https://github.com/JustCapo/IE-Cloud-Connector.-Azure/blob/main/Images/ConnectionString.png)
   - Click *update*
   - Set TTL to a smaller, more reasonable amount, like 7 days.
   - Now select *Generate SAS*.
@@ -92,6 +91,8 @@ Click on top of the newly created route's name, and select the previously create
 
 ![](https://github.com/JustCapo/IE-Cloud-Connector.-Azure/blob/main/Images/IE_CC_SaveRoute.png)
 
+Don't forget to deploy now.
+
 ## Check sent data
 
 To check the sent data we can either simply run the command *az iot hub monitor-events --output table -p all -n YourIoTHubName* in the Azure CLI to see the data in the terminal. Or we can use Azure IoT Explorer: https://github.com/Azure/azure-iot-explorer.
@@ -104,13 +105,5 @@ Hit *save* and you will next see the devices in your Hub. Select the one to whic
 
 ![](https://github.com/JustCapo/IE-Cloud-Connector.-Azure/blob/main/Images/AzureIOTExplorerTelemetry.png)
 
-With this you should now be able to see the sent messages in the Azure IoT Explorer window.
-
-### Azure IoT Explorer
-
-https://github.com/Azure/azure-iot-explorer
-
-### Device Explorer
-
-https://github.com/Azure/azure-iot-sdk-csharp/releases/tag/2018-3-13
+With this you should now be able to see the sent messages in the Azure IoT Explorer window. These messages are all arriving at the default built-in endpoint for your IoT hub.
 
