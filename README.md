@@ -92,6 +92,12 @@ Click on top of the newly created route's name, and select the previously create
 
 ![](https://github.com/JustCapo/IE-Cloud-Connector.-Azure/blob/main/Images/IE_CC_SaveRoute.png)
 
+## Check sent data
+
+To check the sent data we can either simply run the command *az iot hub monitor-events --output table -p all -n YourIoTHubName* in the Azure CLI to see the data in the terminal. Or we can use Azure IoT Explorer: https://github.com/Azure/azure-iot-explorer.
+
+
+
 ### Azure IoT Explorer
 
 https://github.com/Azure/azure-iot-explorer
