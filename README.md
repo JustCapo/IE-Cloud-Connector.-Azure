@@ -107,3 +107,10 @@ Hit *save* and you will next see the devices in your Hub. Select the one to whic
 
 With this you should now be able to see the sent messages in the Azure IoT Explorer window. These messages are all arriving at the default built-in endpoint for your IoT hub.
 
+# Documentation
+
+To find further information or help on the topic, use the following links which may prove useful:
+
+- [Send device data to Azure storage tutorial](https://docs.microsoft.com/en-us/azure/iot-hub/tutorial-routing?tabs=portal)
+- [Send telemetry data from device to IoT Hub with Azure CLI](https://docs.microsoft.com/en-us/azure/iot-hub/quickstart-send-telemetry-cli)
+- [IE Cloud Connector documentation](https://support.industry.siemens.com/cs/document/109811739/industrial-edge-cloud-connector-v1-8?dti=0&lc=en-US)
